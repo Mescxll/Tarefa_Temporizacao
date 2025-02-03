@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/clock_semaforo.uf2'
+elf = 'build/clock_semaforo.elf'
