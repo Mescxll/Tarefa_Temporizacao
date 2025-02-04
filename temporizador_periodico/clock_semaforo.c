@@ -5,10 +5,10 @@
 #include "hardware/clocks.h" 
 #include "hardware/pll.h"    
 
-//LEDs vermelho, amarelop e verde
-#define LED_VM 13 //Na placa BitDogLab, led verde
+//LEDs vermelho, amarelo e verde
+#define LED_VM 13 //Na placa BitDogLab, led vermelho
 #define LED_AM 12 //Na placa BitDogLab, led azul
-#define LED_VD 11 //Na placa BitDogLab, led vermelho
+#define LED_VD 11 //Na placa BitDogLab, led verde
 
 // Função de callback
 bool repeating_timer_callback(struct repeating_timer *t) {
